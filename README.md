@@ -6,6 +6,7 @@
 - `php artisan key:generate`
 - `php artisan migrate`
 - `php artisan db:seed --class=UserTableSeeder`
+- `npm run build`
 
 ## Login
 
