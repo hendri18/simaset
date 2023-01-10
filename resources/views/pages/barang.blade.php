@@ -199,41 +199,41 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="card border-left-primary mb-3">
+                        <div class="card border-left-info mb-3">
                             <div class="card-body">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Kategori</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Kategori</div>
                                 <div>Furniture</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card border-left-primary mb-3">
+                        <div class="card border-left-info mb-3">
                             <div class="card-body">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Nama Barang</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Nama Barang</div>
                                 <div>Kursi Direktur</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card border-left-primary mb-3">
+                        <div class="card border-left-info mb-3">
                             <div class="card-body">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Merk Barang</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Merk Barang</div>
                                 <div>Chitose</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card border-left-primary mb-3">
+                        <div class="card border-left-info mb-3">
                             <div class="card-body">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Tahun Perolehan</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tahun Perolehan</div>
                                 <div>2020</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="card border-left-primary mb-3">
+                        <div class="card border-left-info mb-3">
                             <div class="card-body">
-                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Lokasi Barang</div>
+                                <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Lokasi Barang</div>
                                 <div>Ruang Direktur</div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                <button class="btn btn-info" type="button" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>

@@ -42,6 +42,7 @@
             <li class="nav-item {{ request()->is('home') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span></a>
             </li>
+            <hr class="sidebar-divider my-0">
             <li class="nav-item {{ request()->is('user') ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('user') }}"><i class="fas fa-fw fa-users-cog"></i> <span>User</span></a>
             </li>
@@ -60,15 +61,19 @@
                     </div>
                 </div>
             </li>
+            <hr class="sidebar-divider my-0">
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-fw fa-table"></i> <span>Data Aset</span></a>
             </li>
+            <hr class="sidebar-divider my-0">
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-fw fa-table"></i> <span>Pengadaan</span></a>
             </li>
+            <hr class="sidebar-divider my-0">
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-fw fa-table"></i> <span>Pemeliharaan</span></a>
+                <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-fw fa-wrench"></i> <span>Pemeliharaan</span></a>
             </li>
+            <hr class="sidebar-divider my-0">
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseLaporan"
                     aria-expanded="true" aria-controls="collapseLaporan">
@@ -81,7 +86,11 @@
                     </div>
                 </div>
             </li>
-
+            <hr class="sidebar-divider my-0">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-fw fa-cog"></i> <span>Pengaturan</span></a>
+            </li>
+            <hr class="sidebar-divider my-0">
             <!-- Divider -->
             {{-- <hr class="sidebar-divider d-none d-md-block"> --}}
 
